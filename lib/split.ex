@@ -15,7 +15,7 @@ defmodule Split do
   def hello do
     :world
   end
-  
+
   def concat([], list), do: list
   def concat([value], list), do: [value | list]
   def concat([head | tail], list) do
